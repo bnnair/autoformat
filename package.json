@@ -4,7 +4,8 @@
   "description": "[Status: experiment] configurable JavaScript formatter",
   "main": "src/autoformat.js",
   "scripts": {
-    "test": "flow & babel-node test/test.js"
+    "test": "flow & babel-node test/test.js",
+    "stop": "flow stop"
   },
   "repository": {
     "type": "git",
