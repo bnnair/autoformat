@@ -1,0 +1,31 @@
+{
+  "name": "autoformat",
+  "version": "1.0.0",
+  "description": "[Status: experiment] configurable JavaScript formatter",
+  "main": "src/autoformat.js",
+  "scripts": {
+    "test": "flow & babel-node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commissure/autoformat.git"
+  },
+  "keywords": [
+    "babel",
+    "fmt",
+    "formatter",
+    "format"
+  ],
+  "author": "David Pfahler & Max Lielje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/commissure/autoformat/issues"
+  },
+  "homepage": "https://github.com/commissure/autoformat#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "flow": "^0.2.3"
+  }
+}
